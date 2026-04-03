@@ -1,10 +1,17 @@
 {
+  "name": "Buddy Plugin Marketplace",
+  "owner": {
+    "name": "devchangjun"
+  },
   "plugins": [
     {
       "name": "buddy",
       "description": "Kill and reroll your Claude Code buddy companion with a different species and rarity",
       "version": "1.0.0",
-      "path": "."
+      "source": {
+        "type": "github",
+        "url": "https://github.com/ckdwns9121/buddy"
+      }
     }
   ]
 }
