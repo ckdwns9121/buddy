@@ -1,5 +1,7 @@
 {
-  "name": "Buddy Plugin Marketplace",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "buddy-plugin-marketplace",
+  "description": "Kill and reroll your Claude Code buddy companion",
   "owner": {
     "name": "devchangjun"
   },
@@ -7,10 +9,9 @@
     {
       "name": "buddy",
       "description": "Kill and reroll your Claude Code buddy companion with a different species and rarity",
-      "version": "1.0.0",
       "source": {
-        "type": "github",
-        "url": "https://github.com/ckdwns9121/buddy"
+        "source": "url",
+        "url": "https://github.com/ckdwns9121/buddy.git"
       }
     }
   ]
