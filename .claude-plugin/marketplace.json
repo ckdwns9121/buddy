@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    {
+      "name": "buddy",
+      "description": "Kill and reroll your Claude Code buddy companion with a different species and rarity",
+      "version": "1.0.0",
+      "path": "."
+    }
+  ]
+}

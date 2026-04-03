@@ -1,0 +1,8 @@
+{
+  "name": "buddy",
+  "description": "Manage your Claude Code buddy companion - kill and reroll for a new one",
+  "version": "1.0.0",
+  "author": {
+    "name": "devchangjun"
+  }
+}
