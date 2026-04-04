@@ -4,5 +4,9 @@
   "version": "1.0.0",
   "author": {
     "name": "devchangjun"
-  }
+  },
+  "repository": "https://github.com/ckdwns9121/buddy-kill",
+  "skillsPaths": [
+    "skills"
+  ]
 }

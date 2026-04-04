@@ -1,11 +1,11 @@
-# buddy
+# buddy-kill
 
 Claude Code buddy companion management plugin.
 
 ## Install
 
-```bash
-claude --plugin-dir /path/to/buddy
+```
+/plugin marketplace add ckdwns9121/buddy-kill
 ```
 
 ## Commands
@@ -14,9 +14,15 @@ claude --plugin-dir /path/to/buddy
 
 Kill your current buddy and reroll a completely new one with different species, rarity, and stats.
 
+## Why account UUID rotation
+
+If only `companionGeneration` changes, the next roll can still collide and feel the same.
+This plugin rotates `oauthAccount.accountUuid` to a fresh random UUID to force a new seed path.
+
 ## How it works
 
-Claude Code companions are deterministically generated from `hash(accountUuid + salt)`. This plugin changes `accountUuid` in `~/.claude.json` to produce a different roll, while keeping OAuth authentication intact.
+Claude Code companions are seeded from `companionUserId + salt`.
+By changing `oauthAccount.accountUuid`, the seed changes for the next `/buddy` hatch.
 
 ## Restore
 
