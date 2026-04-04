@@ -8,6 +8,12 @@ Claude Code buddy companion management plugin.
 /plugin marketplace add ckdwns9121/buddy-kill
 ```
 
+## Uninstall
+
+```
+/plugin uninstall buddy@buddy-kill
+```
+
 ## Commands
 
 ### `/buddy:kill`
