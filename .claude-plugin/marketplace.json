@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "buddy-plugin-marketplace",
+  "name": "buddy-kill",
   "description": "Kill and reroll your Claude Code buddy companion",
   "owner": {
     "name": "devchangjun"
