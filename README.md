@@ -4,14 +4,26 @@ Claude Code buddy companion management plugin.
 
 ## Install
 
+1. Add the marketplace:
 ```
 /plugin marketplace add ckdwns9121/buddy-kill
 ```
 
+2. Install the plugin:
+```
+/plugin install buddy@buddy-kill
+```
+
 ## Uninstall
 
+Remove the plugin:
 ```
 /plugin uninstall buddy@buddy-kill
+```
+
+Or remove the marketplace and all its plugins at once:
+```
+/plugin marketplace remove buddy-kill
 ```
 
 ## Commands
